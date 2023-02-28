@@ -18,3 +18,14 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.contry-list{
+  list-style: none;
+}
+.contry-item {
+
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+
+}

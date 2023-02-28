@@ -4,7 +4,7 @@ import debounce from "lodash.debounce";
 
 const DEBOUNCE_DELAY = 300;
 const box = document.querySelector("#search-box");
-const userList = document.querySelector(".country-info");
+
 import { fetchCountries } from "./fetchCountries.js";
 
 
