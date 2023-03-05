@@ -23,7 +23,7 @@ const fetchCountries = function (query) {
             if (contryCount > 1 && contryCount <= 10) {
                 let innerData = "<ul class = \"contry-list\">";
                 for (const contry of data) {
-                    innerData += `<li class = \"contry-item\"> <img width=20 height=12 alt="${contry.name.common}" src="${contry.flags.svg}"> ${contry.name.common} </li>`;
+                    innerData += `<li class = "contry-item"> <img width=20 height=12 alt="${contry.name.common}" src="${contry.flags.svg}"> ${contry.name.common} </li>`;
                 }
                 innerData += "</ul>";
                 userList.innerHTML = innerData;
